@@ -1,14 +1,18 @@
-/* 
+
+/*
 color palette
-#f7fff7 - almost white
-#343434 - dark gray - almost black
-#2f3061 - blue dark
-#f7fff7 - yellow
-#a1c6d7 - blue light
-#9a9393 - light gray
-#9770b2 - light purple
-#b4cda2 - light green
-*/
+ #343434 - dark gray - almost black
+ #9a9393 - light gray
+ dark purple - #5b3c70
+ Midle light Purple #8e63ab
+ light light purple - #fdfcfe
+ #f7fff7 - light yellow 
+ #feffaf - yellow
+ blue - #708bb2
+ purple - #9770b2
+ brown - #b29770
+ green - #8bb270
+ */
 
 
 /* Global styles
@@ -35,7 +39,7 @@ img {
     width: 300px;
 }
 a {
-    color: #ffe66d;
+    color: #f7fff7;
 }
 a:hover {
     text-decoration: none;
@@ -68,7 +72,8 @@ h3 {
     margin: 0;
 }
 .divider > section {
-    border-bottom: dashed #9a9393;
+    /* border-bottom: dashed #9a9393; */
+    border-bottom: dashed #5b3c70;
     padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -86,7 +91,7 @@ header {
 /* Projects
 ____________________________________ */ 
 .projects {
-    background-color: #f7fff7;
+    background-color: #fdfcfe;
     /* background-color: #fff9ed; */
 }
 .projects a {
@@ -120,8 +125,7 @@ ____________________________________ */
 /* Work Experience
 ____________________________________ */
 .work-experince {
-    /* background-color: #b4cda2; */
-    background-color: #c4dfd3;
+    background-color: #8bb270;
 }
 
 
@@ -129,7 +133,8 @@ ____________________________________ */
 ____________________________________ */
 .education {
     /* background-image: url(../images/GettyImages-1256103916.jpg); */
-    background-color: #cdbba2;
+    /* background-color: #cdbba2; */
+    background-color: #708bb2;
     background-size: cover;
     background-position: top left;
     padding-bottom: 150px;
@@ -144,7 +149,8 @@ ____________________________________ */
 
 footer {
     /* background-color: #7a6342; */
-    background-color: #b29770;
+    /* background-color: #b29770; */
+    background-color: #708bb2;
     /* color: #ffd44d; */
     color: #f7fff7;
 }
