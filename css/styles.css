@@ -1,15 +1,15 @@
 
 /*
 color palette
- #343434 - dark gray - almost black
- #9a9393 - light gray
+ dark gray - almost black -#343434 
+ light gray - #9a9393  
+ purple - #9770b2
  dark purple - #5b3c70
  Midle light Purple #8e63ab
  light light purple - #fdfcfe
- #f7fff7 - light yellow 
- #feffaf - yellow
+ yellow - #feffaf
+ light yellow - #f7fff7  
  blue - #708bb2
- purple - #9770b2
  brown - #b29770
  green - #8bb270
  */
@@ -72,7 +72,6 @@ h3 {
     margin: 0;
 }
 .divider > section {
-    /* border-bottom: dashed #9a9393; */
     border-bottom: dashed #5b3c70;
     padding: 25px 0;
 }
@@ -83,7 +82,6 @@ h3 {
 /* Profile
 ____________________________________ */
 header {
-    /* background-color: #2f3061; */
     background-color: #9770b2;
     color: #f7fff7;
 }
@@ -92,7 +90,6 @@ header {
 ____________________________________ */ 
 .projects {
     background-color: #fdfcfe;
-    /* background-color: #fff9ed; */
 }
 .projects a {
     color: #2f3061;
@@ -132,12 +129,10 @@ ____________________________________ */
 /* Education
 ____________________________________ */
 .education {
-    /* background-image: url(../images/GettyImages-1256103916.jpg); */
-    /* background-color: #cdbba2; */
     background-color: #708bb2;
     background-size: cover;
     background-position: top left;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
 }
 .education p {
     width: 60%;
@@ -148,10 +143,7 @@ ____________________________________ */
 ____________________________________ */
 
 footer {
-    /* background-color: #7a6342; */
-    /* background-color: #b29770; */
     background-color: #708bb2;
-    /* color: #ffd44d; */
     color: #f7fff7;
 }
 .contact-list {
@@ -189,18 +181,17 @@ ____________________________________ */
         justify-content: center;
     }
     .education {
-        background-color: #feffaf;
-        /* background-image: url(../images/joanna-kosinska-unsplash.jpg); */
         background-position: top right;
     }
 }
 @media screen and  (max-width:749px){
-    h1 {
-        font-size: 75px;
+    h1, h2 {
+        font-size: 45px;
         line-height: 0.9;
         margin-bottom: 20px;
     }
     h1, h2 {
+
         line-height: 1;
     }
     .contact-list a {
