@@ -118,7 +118,6 @@ ____________________________________ */
     margin-left: 20px;
 } 
 
-
 /* Work Experience
 ____________________________________ */
 .work-experince {
@@ -167,10 +166,7 @@ ____________________________________ */
     }
     
     .web-journal {
-    /* margin-top: 8px; */
-    margin-top: 20px;
-    /* margin-bottom: 92px; */
-    margin-bottom: 80px;
+    margin-top: 8px;
     }
 
     .job-item {
@@ -202,7 +198,7 @@ ____________________________________ */
         line-height: 1;
     }
     h3 {
-        font-size: 25px;
+        font-size: 15px;
     }
     .contact-list a {
         padding: 5px;
